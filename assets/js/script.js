@@ -29,10 +29,10 @@ const llenarDatosPokemon = (json) => {
 };
 const cardsPokemosConImg = (jsonImg, html) => {
     html += '<div class="col mt-5">';
-    html += '<div class="card" style="width: 10rem;">';
-    html += `<img src="${jsonImg.sprites.other.dream_world.front_default}" class="card-img-top" alt="...">`;
+    html += '<div class="card" style="width: 12rem;">';
+    html += `<img src="${jsonImg.sprites.other.dream_world.front_default}" class="card-img-top" height="150" alt="...">`;
     html += '<div class="card-body">';
-    html += `<h5 class = "card-title" >${jsonImg.name}</h5>`;
+    html += `<h5 class = "card-title" style="text-transform: uppercase;">${jsonImg.name}</h5>`;
     html += `<p class="card-text">Altura :${jsonImg.height}</p>`;
     html += `<p class="card-text">Peso :${jsonImg.weight}</p>`;
     html += "</div>";
