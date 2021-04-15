@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    z-index: 1;
+  }
+  .headerStyle {
+    color: rgb(211, 114, 24);
+    height: 50px;
+  }
+  .datosPokemon {
+    margin-top: 140px;
+    margin-bottom: 60px;
+  }
+  .paginacion{
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }
